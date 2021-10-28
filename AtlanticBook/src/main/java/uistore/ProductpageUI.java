@@ -20,7 +20,7 @@ public class ProductpageUI {
 		return gmatbook;
 	}
 
-	@FindBy(xpath = "//*[contains(text(),'₹1,532.00')]//following::button")
+	@FindBy(xpath = "//*[contains(text(),'₹1,493.00')]//following::button")
 	WebElement catbook;
 
 	public WebElement addcatbook() {
