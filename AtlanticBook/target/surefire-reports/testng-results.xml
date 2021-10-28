@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="155083" started-at="2021-10-22T13:37:23 IST" finished-at="2021-10-22T13:39:58 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="155083" started-at="2021-10-22T13:37:23 IST" finished-at="2021-10-22T13:39:58 IST">
+      <class name="runner.AtlanticBooksApp">
+        <test-method status="PASS" signature="setdriver()[pri:0, instance:runner.AtlanticBooksApp@367ffa75]" name="setdriver" duration-ms="43498" started-at="2021-10-22T13:37:23 IST" finished-at="2021-10-22T13:38:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setdriver -->
+        <test-method status="PASS" signature="openwebsite()[pri:0, instance:runner.AtlanticBooksApp@367ffa75]" name="openwebsite" duration-ms="12867" started-at="2021-10-22T13:38:06 IST" depends-on-methods="runner.AtlanticBooksApp.setdriver" finished-at="2021-10-22T13:38:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openwebsite -->
+        <test-method status="PASS" signature="performtest()[pri:0, instance:runner.AtlanticBooksApp@367ffa75]" name="performtest" duration-ms="65093" started-at="2021-10-22T13:38:19 IST" depends-on-methods="runner.AtlanticBooksApp.openwebsite" finished-at="2021-10-22T13:39:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performtest -->
+        <test-method status="PASS" signature="clickonmyaccount()[pri:0, instance:runner.AtlanticBooksApp@367ffa75]" name="clickonmyaccount" duration-ms="5188" started-at="2021-10-22T13:39:24 IST" depends-on-methods="runner.AtlanticBooksApp.performtest" finished-at="2021-10-22T13:39:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonmyaccount -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:runner.AtlanticBooksApp@367ffa75]" name="login" duration-ms="14278" started-at="2021-10-22T13:39:30 IST" data-provider="getCredentials" depends-on-methods="runner.AtlanticBooksApp.clickonmyaccount" finished-at="2021-10-22T13:39:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pooja.adi2309@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:runner.AtlanticBooksApp@367ffa75]" name="login" duration-ms="5089" started-at="2021-10-22T13:39:44 IST" data-provider="getCredentials" depends-on-methods="runner.AtlanticBooksApp.clickonmyaccount" finished-at="2021-10-22T13:39:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emailid2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="signup()[pri:0, instance:runner.AtlanticBooksApp@367ffa75]" name="signup" duration-ms="6579" started-at="2021-10-22T13:39:49 IST" depends-on-methods="runner.AtlanticBooksApp.login" finished-at="2021-10-22T13:39:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method status="PASS" signature="close()[pri:0, instance:runner.AtlanticBooksApp@367ffa75]" name="close" is-config="true" duration-ms="2392" started-at="2021-10-22T13:39:55 IST" finished-at="2021-10-22T13:39:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- runner.AtlanticBooksApp -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
