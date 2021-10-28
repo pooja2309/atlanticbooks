@@ -13,7 +13,8 @@ public class Readproperty {
 		config = new Properties();
 		FileInputStream fs = null;
 		try {
-			fs = new FileInputStream("C:\\Users\\pooja\\eclipse-workspace\\AtlanticBook\\config.properties");
+			
+			fs = new FileInputStream(System.getProperty("user.dir")+"\\config.properties");
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
